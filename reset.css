@@ -80,3 +80,12 @@ button,
   appearance: button;
   -webkit-appearance: button;
 }
+
+/*
+  Remove the inner border and padding in Firefox
+*/
+
+::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
