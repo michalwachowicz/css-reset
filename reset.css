@@ -68,3 +68,15 @@ h6 {
   overflow-wrap: break-word;
   hyphens: auto;
 }
+
+/*
+  Correct the inability to style clickable types in iOS and Safari
+*/
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  appearance: button;
+  -webkit-appearance: button;
+}
