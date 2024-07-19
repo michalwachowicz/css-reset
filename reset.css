@@ -40,3 +40,31 @@ textarea,
 select {
   font: inherit;
 }
+
+/*
+  Set media elements defaults to block
+*/
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/*
+  Add word wrapping for long words to avoid overflowing
+*/
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
