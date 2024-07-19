@@ -16,3 +16,16 @@
   margin: 0;
   padding: 0;
 }
+
+/*
+  Typographic tweaks:
+  - Set accessible line height
+  - Improve text rendering
+  - Prevent adjustments of font size after orientation change in iOS
+*/
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+}
